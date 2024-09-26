@@ -14,20 +14,33 @@ The dataset is derived from the MNIST handwritten digits and includes different 
   python ../src create_noisy_digits.py
    ```
 
-## 🛠️ Usage
+## 🔄Installation
 
-To run the project, follow these steps:
+### Clone the repository
 
-1. Clone the repository:
-   ```bash
-   git clone git@github.com:zhukovanadezhda/noisy-mnist.git
-   cd noisy-mnist
-   ```
+```bash
+git clone git@github.com:zhukovanadezhda/noisy-mnist.git
+cd noisy-mnist
+```
+### Setup the conda environment
 
-2. Install the required dependencies:
-   ```bash
-   conda env create -f environment.yml
-   ```
+Install [miniconda](https://docs.conda.io/en/latest/miniconda.html). Create the `deep-learning` conda environment:
+
+```bash
+conda env create -f environment.yml
+```
+
+### Load the environment
+
+```bash
+conda activate deep-learning
+```
+
+> 💡**Note:** To deactivate an active environment, use:
+> ```bash
+> conda deactivate
+> ```
+
    
 ## 📄 References
 
